@@ -1,29 +1,18 @@
-import React, {useState} from 'react';
+import React
+// {useState} 
+from 'react';
+import Home from './components/Home';
 import './App.css';
 
-function App() {
+const App = () => {
 
-  const [state, setState] = useState({ age: 20, numSimblings: 4})
-  const handleClick = val => 
-  setState({
-    ...state, [val]: state[val] + 1
-  })
-  
-  const { age, numSimblings } = state
-  
   return (
-    <div className="App">
-      <header className="App-header">
-      
-        <button onClick={handleClick.bind(null, 'age')}>
-        Olamide Deborah!
-        </button>
-        <button onClick={handleClick.bind(null, 'numSimblings')}>siblings</button>
-        <p>i am {age} old</p>
-        <p>i have {numSimblings} </p>
-      </header>
-    </div>
-  );
+    <>
+    <Home/>
+    
+    </>
+  )
 }
 
-export default App;
+
+export default App
