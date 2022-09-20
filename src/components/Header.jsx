@@ -8,10 +8,10 @@ const Header = () => {
             <hr />
             <div>
         <NavLink to="/" exact>
-          Books List
+        Contacts List
         </NavLink>
         <NavLink to="/add">
-          Add Book
+          Add Contacts
         </NavLink>
       </div>
         </header>

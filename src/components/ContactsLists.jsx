@@ -2,7 +2,7 @@ import React from "react";
 
 
 const ContactsLists = () => {
-    return <h2>List of books</h2>;
+    return <h2>List of Contacts</h2>;
   };
   
   export default ContactsLists;
