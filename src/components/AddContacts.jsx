@@ -2,8 +2,8 @@ import React from "react";
 import ContactForm from './ContactForm';
 const AddContacts = () => {
 
-    const handleOnSubmit = (contact) => {
-        console.log(contact);
+    const handleOnSubmit = () => {
+        // console.log(userData);
       };
     return (
         <>
